@@ -1,0 +1,2 @@
+<Project Sdk="Microsoft.NET.Sdk"><ItemGroup><ProjectReference Include="../DevTools.Contracts/DevTools.Contracts.csproj" /></ItemGroup></Project>
+

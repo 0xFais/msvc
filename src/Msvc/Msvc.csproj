@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><AssemblyName>Msvc</AssemblyName><Version>1.1.0</Version><RollForward>LatestMajor</RollForward></PropertyGroup>
+  <ItemGroup><ProjectReference Include="../DevTools.Contracts/DevTools.Contracts.csproj"/><ProjectReference Include="../DevTools.Infrastructure/DevTools.Infrastructure.csproj"/></ItemGroup>
+  <ItemGroup><None Include="msvc.cmd" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest"/><None Include="msvc-shell.cmd" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest"/></ItemGroup>
+</Project>
+
+
